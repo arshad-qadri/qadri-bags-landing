@@ -15,6 +15,10 @@ export const metadata: Metadata = {
   creator: "Qadri Bags",
   publisher: "Qadri Bags",
   robots: "index, follow",
+  metadataBase: new URL("https://shop.arshadqadri.com"), // ← canonical base
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "Qadri Bags | School Bag Manufacturer & Supplier",
     description:
